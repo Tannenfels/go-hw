@@ -4,8 +4,7 @@ package main
 // the <icon src="AllIcons.Actions.Execute"/> icon in the gutter and select the <b>Run</b> menu item from here.
 
 func main() {
-	var b Board
-	b.fill(8)
+	DrawBoard(8)
 
 }
 
